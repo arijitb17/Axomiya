@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: "Gilroy"; */
+}
+html,body{
+    width: 100%;
+    height:100%;
+    background-color:rgb(252, 243, 243);
+    font-family: 'Lora', serif;
+}
+#main{
+        width:100vw;
+        height:100vh;
+        display:flex;
+        justify-content:center;
+       
+
+}
+#login{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    border:2px solid black;
+    margin:30px;
+    padding :5px;
+    width:30%;
+    height:65%;
+    background-color:#fff;
+    /* border-radius: 20px; */
+    box-shadow:5px 5px 10px rgb(0, 0, 0);
+}
+#text-name{
+    margin:4px; 
+     padding:4px;
+    height:12px;
+    font-family: 'Lora', serif;
+    font-weight: 50;
+    font-size: 15rem;
+    padding-top: 0px;
+    padding-bottom: 3px;
+
+}
+#user{
+    margin:2px;
+    padding-top:30px;
+
+}
+#text:hover{
+    /* background-color: rgb(199, 188, 188); */
+    color:white;
+    cursor:pointer;
+}
+#password{
+    
+    margin:2px;
+    padding:5px;
+    /* height:3px; */
+}
+
+#pass:hover{
+    /* background-color: rgb(182, 166, 166); */
+    color:white;
+    cursor:pointer;   
+}
+
+
+
+ #button {
+   
+        background-color: #e7eee7; /* Green */
+        border: none;
+        color: rgb(14, 9, 9);
+        padding: 15px ;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 4;
+       font-family: 'Lora', serif;
+       border-radius: 4px;
+      
+
+       
+       box-shadow: 2px 5px 9px #00000093, -2px -2px 9px #fff;
+                
+
+      
+  }
+  #button:hover{
+    cursor: pointer;
+    background-color: #000;
+    color:#fff;
+  }
+  
+
+label{
+    color:rgb(19, 130, 194);
+    font-weight: 50;
+    font-size: medium;
+    font-family: 'Lora', serif;
+}
+#text-name{
+    color:rgb(5, 115, 158);
+  
+    font-weight: 50;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:8px;
+}
+   #logo{
+    color: black;
+    align-self: center;
+    
+   }
+   span{
+    color:rgb(28, 2, 87);
+    font-weight: 50;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:8px;
+   }
+   #signin{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    border:2px solid black;
+    margin:30px;
+    padding :5px;
+    width:30%;
+    height:70%;
+    background-color:#fff;
+    box-shadow:5px 5px 10px rgb(0, 0, 0);
+   position:absolute;
+   top:45%;
+   bottom:50%;
+   transform: translate(100%,-50%);
+}
+i
+{
+    padding: 2px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
